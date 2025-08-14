@@ -17,7 +17,7 @@ export default function Contacto() {
         fontWeight: 700,
         fontSize: 20
       }}>
-        Atención al Cliente <span style={{ color: "#38b6ff", fontWeight: 600 }}>Suport</span>
+        Atención al Cliente <span style={{ color: "#38b6ff", fontWeight: 600 }}>Support</span>
       </h3>
       <form onSubmit={handleSubmit} style={{
         maxWidth: 370,
