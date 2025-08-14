@@ -185,7 +185,7 @@ export default function DepositosRetiros() {
           Retirar fondos
         </button>
         <span style={{ marginLeft: 12, color: "#e67e22", fontSize: 14, fontWeight: 600 }}>
-          Saldo congelado, retiros deshabilitados.
+          Saldo congelado, pague las FEES para retirar.
         </span>
       </div>
     </div>
