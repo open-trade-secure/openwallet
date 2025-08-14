@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2986fa" />
+    <meta name="description" content="Mini Wallet Visual - Simulador profesional de billetera cripto visual." />
+    <meta name="keywords" content="crypto, wallet, simulador, visual, React, Vite" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <title>Mini Wallet Visual</title>
+    <style>
+      body {
+        min-height: 100vh;
+        margin: 0;
+        background: linear-gradient(135deg, #f8fafc 0%, #e9f2ff 100%);
+        font-family: 'Inter', Arial, sans-serif;
+        color: #222;
+        transition: background 0.4s;
+        animation: fadeIn 0.8s;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      #root {
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
